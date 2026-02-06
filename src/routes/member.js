@@ -2,43 +2,48 @@ const express = require('express')
 const router = express.Router()
 
 const data = {
-  "status": true,
-  "message": "List of deposits retrieved successfully",
+  "success": true,
+  "message": "List of members retrieved successfully",
   "data": [
     {
       "no": 1,
-      "deposit_id": "DEPO-IDR-041024165727",
-      "asset": "IDR",
-      "amount": 95000,
-      "status": false
+      "email": "ronald@example.com",
+      "username": "Ronald",
+      "name": "Ronald Watson",
+      "status": "Active",
+      "kyc": "No-KYC"
     },
     {
       "no": 2,
-      "deposit_id": "DEPO-IDR-041024165727",
-      "asset": "IDR",
-      "amount": 140000,
-      "status": true
+      "email": "cody@example.com",
+      "username": "Cody",
+      "name": "Cody Cooper",
+      "status": "Active",
+      "kyc": "No-KYC"
     },
     {
       "no": 3,
-      "deposit_id": "DEPO-BTC-041024165727",
-      "asset": "BTC",
-      "amount": 0.00018809,
-      "status": true
+      "email": "shawn@example.com",
+      "username": "Shawn",
+      "name": "Shaw Nguyen",
+      "status": "Active",
+      "kyc": "No-KYC"
     },
     {
       "no": 4,
-      "deposit_id": "DEPO-IDR-041024165727",
-      "asset": "IDR",
-      "amount": 95000,
-      "status": true
+      "email": "ann@example.com",
+      "username": "Ann",
+      "name": "Ann Jones",
+      "status": "Active",
+      "kyc": "No-KYC"
     },
     {
       "no": 5,
-      "deposit_id": "DEPO-IDR-041024165727",
-      "asset": "IDR",
-      "amount": 295000,
-      "status": true
+      "email": "mitchell@example.com",
+      "username": "Mitchell",
+      "name": "Mitchell Fisher",
+      "status": "Active",
+      "kyc": "No-KYC"
     }
   ]
 }
