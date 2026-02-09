@@ -14,7 +14,7 @@ This project is a backend service for managing cryptocurrency deposits. It provi
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/pram212/crypto-test-be.git
    ```
 2. Navigate to the project directory:
    ```sh
